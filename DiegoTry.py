@@ -45,4 +45,12 @@ def calcular_imc(self):
 def aumento_salario(self, porcentaje):
     aumento = self.__salario * (porcentaje / 100)
     self.__salario += aumento
-    
+
+#Info
+def info(self):
+    print(f"Nombre: {self.__nombre}")
+    print(f"edad: {self.__edad}")
+    print(f"peso: {self.__peso} Kg")
+    print(f"altura: {self.__altura} m")
+    print(f"Nombre: {self.__nombre}")
+    print("Salario: $", round(self.__salario, 2))

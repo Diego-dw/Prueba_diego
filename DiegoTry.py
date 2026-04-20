@@ -38,3 +38,11 @@ def set_altura(self, altura):
 def set_salario(self, salario):
     self.__salario = salario
 
+#metodos
+def calcular_imc(self):
+    return self.__peso / (self.__altura ** 2)
+
+def aumento_salario(self, porcentaje):
+    aumento = self.__salario * (porcentaje / 100)
+    self.__salario += aumento
+    

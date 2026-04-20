@@ -5,4 +5,7 @@ class Trabajador:
     self.__peso = peso
     self.__altura = altura
     self.__salario = salario
-    
+
+
+def get_nombre(self):
+    return self.__nombre

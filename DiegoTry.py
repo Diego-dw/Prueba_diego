@@ -23,3 +23,18 @@ def get_salario(self):
     return self.__salario
 
 #Setters
+def set_nombre(self, nombre):
+    self.__nombre = nombre
+
+def set_edad(self, edad):
+    self.__edad = edad
+
+def set_peso(self, peso):
+    self.__peso = peso
+
+def set_altura(self, altura):
+    self.__altura = altura
+
+def set_salario(self, salario):
+    self.__salario = salario
+

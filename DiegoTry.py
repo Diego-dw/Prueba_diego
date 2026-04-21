@@ -1,10 +1,10 @@
 class Trabajador:
     def __init__(self, nombre, edad, peso, altura, salario):
-    self.__nombre = nombre
-    self.__edad = edad
-    self.__peso = peso
-    self.__altura = altura
-    self.__salario = salario
+        self.__nombre = nombre
+        self.__edad = edad
+        self.__peso = peso
+        self.__altura = altura
+        self.__salario = salario
 
 #getters
 def get_nombre(self):
@@ -47,10 +47,14 @@ def aumento_salario(self, porcentaje):
     self.__salario += aumento
 
 #Info
-def info(self):
-    print(f"Nombre: {self.__nombre}")
-    print(f"edad: {self.__edad}")
-    print(f"peso: {self.__peso} Kg")
-    print(f"altura: {self.__altura} m")
-    print(f"Nombre: {self.__nombre}")
-    print("Salario: $", round(self.__salario, 2))
+    def info(self):
+        print(f"Nombre: {self.__nombre}")
+        print(f"edad: {self.__edad}")
+        print(f"peso: {self.__peso} Kg")
+        print(f"altura: {self.__altura} m")
+        print("Salario: $", round(self.__salario, 2))
+
+
+#prueba
+t1 = Trabajador("Diego", 20, 82, 1.76, 10000)
+t1.info()
